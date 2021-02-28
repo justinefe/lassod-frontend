@@ -1,0 +1,74 @@
+.registration {
+  width: 450px;
+  margin: 20vh auto;
+}
+.registration > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration_top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.registration_top > h1 {
+  margin-bottom: 5px;
+}
+.registration_top > span {
+  color: rgba(130, 130, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+}
+.registration > form > button {
+  background: #2f80ed;
+  height: 40px;
+  font: large;
+  color: white;
+  font-weight: 700;
+  border: none;
+  margin-top: 18px;
+}
+.registration > form > input {
+  height: 40px;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 5px 10px;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: medium;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: medium;
+}
+
+::placeholder {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: medium;
+}
+.registration > form > label {
+  color: rgba(130, 130, 130, 1);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 8px 0px;
+  margin-top: 14px;
+}
+.registration_top_form_error {
+  /* z-index: ; */
+  color: red;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.registration_top_succes {
+  color: rgba(33, 150, 83, 1) !important;
+  font-weight: bold !important;
+}
