@@ -18,7 +18,9 @@
   color: rgba(130, 130, 130, 1);
   font-size: 16px;
   font-weight: 400;
-  display: block;
+  display: inline-block;
+  margin: 5px;
+}
 }
 .registration > form > button {
   background: #2f80ed;
